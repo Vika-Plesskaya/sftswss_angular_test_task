@@ -1,0 +1,13 @@
+<section class="filter scroll">
+    <div class="wrapper">
+        <form class="filter-form">
+            <div class="wrapper-checkbox">
+              <div ng-repeat="(key, value) in showCategory">
+                <input id="{{key}}" class="filter-form__checkbox" type="checkbox" ng-checked="value" ng-click="setFilter(key, !value)">
+                <label for="{{key}}" class="filter-form__label" >  | {{key}} </label>
+              </div>
+    	      </div>
+            <button class="filter-form__button" ng-click="clearFilter()">See all products</button>
+      	</form>
+    </div>
+</section>

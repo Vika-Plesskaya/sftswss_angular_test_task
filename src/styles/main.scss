@@ -1,0 +1,12 @@
+@import './normalize/normalize.scss';
+
+@import './_fonts.scss';
+
+@import './_global.scss';
+
+@import './_colors.scss';
+
+@import './templates/_header.scss';
+@import './templates/_filter.scss';
+@import './templates/_product.scss';
+@import './templates/_footer.scss';
